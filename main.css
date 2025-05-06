@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'HaasFont';
+    src: url('./fonts/AlteHaasGroteskBold.ttf') format('truetype'),
+         url('./fonts/AlteHaasGroteskRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'HaasFont', serif;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: #4A1D1F;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    margin-left: 18vw;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #4A1D1F;
+}
+
+.nav-links a:hover {
+    font-weight: 700;
+}
+
+.nav-links img.icon {
+    width: 0.7rem;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.search-box {
+    display: flex;
+    border: 1px solid #4A1D1F;
+    border-radius: 2px;
+}
+
+.search-box input {
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    width: 180px;
+}
+
+.search-box button {
+    background-color: #4A1D1F;
+    padding: 0.5rem 0.7rem;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box button img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.icon {
+    width: 1.5rem;
+    height: auto;
+    cursor: pointer;
+}
