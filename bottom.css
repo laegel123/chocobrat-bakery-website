@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+/* commitment */
+.commitment img{
+  max-width: 30vw;
+  border-radius: 50px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin: 0px 10px;
+}
+.commitment{
+  margin: 50px 100px;
+}
+.commitment-1,
+.commitment-2{
+  display: flex;
+  margin: 300px 0px;
+}
+.commitment .commitment-text{
+  display: flex;
+  flex-direction: column;
+}
+.commitment h3{
+  color: rgb(78, 43, 43);
+}
+.quotes img{
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.footericons img{
+  width: 1.5vw;
+}
