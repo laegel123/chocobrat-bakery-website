@@ -178,6 +178,12 @@ footer li{
 footer li:last-child{
   margin-right: none;
 }
+footer a:link,
+footer a:visited,
+footer a:hover {
+  color: black;
+
+}
 .footer2{
   display: flex;
   justify-content: space-between;
