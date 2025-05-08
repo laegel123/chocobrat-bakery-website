@@ -3,48 +3,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./bottom.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bottom.css">
     <title>Document</title>
 </head>
 <body>
-    <section class="commitment">
-        <div class="commitment-1">
-            <div class="commitment-text">
-                <h3>We Bake for you</h3>
-                <h3>Fresh From the oven</h3>
-                <p>We use quality materials that we get directly form farmers.</p>
-                <p>our backers are exeperienced peaple in the food sector. Sothat the products we produce are guaranteed quality and taste. It's so delicious, you have to try it!</p>
-                <a href="">Read More →</a>
+    <header class="main-header">
+        <h3 class="logo"><a href="#">Chocobrat</a></h3>
+    
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                <a href="#">Categories <img src="./assets/icon/arrow-down.svg" class="icon"></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Cakes</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Bread</a></li>
+                </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    
+        <div class="header-actions">
+            <div class="search-box">
+                <input type="text" placeholder="Search" />
+                <button><img src="./assets/icon/search.svg" alt="search"></button>
             </div>
-            <img src="./img/knead the dough.jpg" alt="knead the dough">
+            <img src="./assets/icon/user.svg" class="icon" alt="user">
+            <img src="./assets/icon/cart.svg" class="icon" alt="cart">
         </div>
-        <div class="commitment-2">
-            <img src="./img/knead the dough.jpg" alt="knead the dough">
-            <div class="commitment-text">
-                <h3>Come and choose</h3>
-                <h3>your favourites</h3>
-                <p>Try to come to our shop directly to enjoy the delicious taste od the cake that just came out of the oven. While enjoying it with a cup of coffee or tea in our very convenient shop. very suitable for chatting, meeting with your team.</p>
-                <a href="">Read More →</a>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner-text">
+                <h2>
+                    <span>Bring you Happiness</span>
+                    <br>through a piece of cake
+                </h2>
+                <p>We make Diffrent type of cakes, chocolate,<br>
+                soft cookies, cheesecake pie or anything<br>
+                you want.</p>
+                <div class="banner-buttons">
+                    <button class="btn-dark">Order Now</button>
+                    <button class="btn-outline">See All Menus</button>
+                </div>
+                
             </div>
-        </div>
-    </section>
-    <section class="contact">
-        <h2>For Cake Orders adove 1KG</h2>
-        <p>Please visit our nearest store or call us on +91 99 99 99 99 99 (10 AM to 7 PM) to place your orders.</p>
-        <input type="submit" value="Contact Us 
-        Now">
-    </section>
-    <section class="quotes">
-        <p>QUOTES</p>
-        <p>"</p>
-        <div class="CEOquates">
-            <p>the eggless cakes here are really good.</p>
-            <p>Had ordered a kit kat cake which was really good. Surely worth a try.</p>
-        </div>
-        <img src="./img/CEO.jpg">
-        <h3>Darren Dunlap</h3>
-        <p>CEO & Founder at Flex.co</p>
-    </section>
+            <div class="banner-image">
+                <img src="./assets/banner-cake.png" alt="chocolate cake">
+            </div>
+            
+            <div class="banner-slide">
+                <div class="banner-slide-content">
+                    <div class="arrow left"><img src="./assets/icon/left-arrow.png"></div>
+                    <div class="slide-counter">01/<sup>12</sup></div>
+                    <div class="arrow right"><img src="./assets/icon/right-arrow.png"></div>
+                    <div class="slide-thumbnails">
+                        <a href="#"><img src="./assets/slide-cake01.jpg" alt="cake1"></a>
+                        <a href="#"><img src="./assets/slide-cake02.jpg" alt="cake2"></a>
+                        <a href="#"><img src="./assets/slide-cake03.jpg" alt="cake3"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-selling-section">
+            <div class="best-selling-wrapper">
+              <div class="best-selling-title">
+                <h2>Try Our Best Selling</h2>
+              </div>
+              <div class="divider"></div>
+              <div class="best-selling-description">
+                <p>
+                  Here’s our best creations that everyone loves. Lightness and sweetness of the cake make you want more and more.
+                  Start from cake, bread and other creations.
+                </p>
+              </div>
+            </div>
+        </section>
+
+        <section class="product-list">
+            <div class="product-card">
+                <div class="product-image-box">
+                    <img src="./assets/content-cake01.jpg" alt="cake1">
+                </div>
+                <p>Red Velvet &amp; Cream Cheese ( 500g )</p>
+                <div class="rating">
+                    <span class="star">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/start-empty.png">
+                    </span>
+                    <span>4.0 Rating</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-box">
+                    <img src="./assets/content-cake02.jpg" alt="cake2">
+                </div>
+                <p>Red Velvet &amp; Cream Cheese ( 500g )</p>
+                <div class="rating">
+                    <span class="star">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/start-empty.png">
+                    </span>
+                    <span>4.0 Rating</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-box">
+                    <img src="./assets/content-cake03.jpg" alt="cake3">
+                </div>
+                <p>Red Velvet &amp; Cream Cheese ( 500g )</p>
+                <div class="rating">
+                    <span class="star">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/start-empty.png">
+                    </span>
+                    <span>4.0 Rating</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-box">
+                    <img src="./assets/content-cake04.jpg" alt="cake4">
+                </div>
+                <p>Red Velvet &amp; Cream Cheese ( 500g )</p>
+                <div class="rating">
+                    <span class="star">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/start-empty.png">
+                    </span>
+                    <span>4.0 Rating</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-box">
+                    <img src="./assets/content-cake05.jpg" alt="cake5">
+                </div>
+                <p>Red Velvet &amp; Cream Cheese ( 500g )</p>
+                <div class="rating">
+                    <span class="star">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/star.png">
+                        <img src="./assets/icon/start-empty.png">
+                    </span>
+                    <span>4.0 Rating</span>
+                </div>
+            </div>
+          </section>
+          <div class="view-more">
+            <button>View More <img src="./assets/icon/right-arrow.png"></button>
+          </div>
+          
+
+        <section class="commitment">
+            <div class="commitment-1">
+                <div class="commitment-text">
+                    <h3>We Bake for you</h3>
+                    <h3>Fresh From the oven</h3>
+                    <p>We use quality materials that we get directly form farmers.</p>
+                    <p>our backers are exeperienced peaple in the food sector. Sothat the products we produce are guaranteed quality and taste. It's so delicious, you have to try it!</p>
+                    <a href="">Read More →</a>
+                </div>
+                <img src="./img/knead the dough.jpg" alt="knead the dough">
+            </div>
+            <div class="commitment-2">
+                <img src="./img/knead the dough.jpg" alt="knead the dough">
+                <div class="commitment-text">
+                    <h3>Come and choose</h3>
+                    <h3>your favourites</h3>
+                    <p>Try to come to our shop directly to enjoy the delicious taste od the cake that just came out of the oven. While enjoying it with a cup of coffee or tea in our very convenient shop. very suitable for chatting, meeting with your team.</p>
+                    <a href="">Read More →</a>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>For Cake Orders adove 1KG</h2>
+            <p>Please visit our nearest store or call us on +91 99 99 99 99 99 (10 AM to 7 PM) to place your orders.</p>
+            <input type="submit" value="Contact Us 
+            Now">
+        </section>
+        <section class="quotes">
+            <p>QUOTES</p>
+            <p>"</p>
+            <div class="CEOquates">
+                <p>the eggless cakes here are really good.</p>
+                <p>Had ordered a kit kat cake which was really good. Surely worth a try.</p>
+            </div>
+            <img src="./img/CEO.jpg">
+            <h3>Darren Dunlap</h3>
+            <p>CEO & Founder at Flex.co</p>
+        </section>
+    </main>
+
+
     <footer>
         <nav aria-label="footer navigation">
             <a href="#">Chocobrat</a>
